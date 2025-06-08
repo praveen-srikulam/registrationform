@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="#">
+            <div class="inputBox">
+                <div class="inputBox-name">
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="nameError">Name Must Contains only letters</div>
+            </div>
+
+            <div class="inputBox">
+                <div class="inputBox-email">
+                    <input type="email" placeholder="Enter Email" id="email">
+                </div>
+                <div class="emailError">Please enter a valid Email</div>
+            </div>
+            <div class="inputBox">
+                <div class="inputBox-password">
+                    <input type="password" placeholder="Password" id="password">
+                </div>
+                <div class="passwordError">Password contains at least 6 characters.</div>
+            </div>
+
+            <input type="submit" id="submit">
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
